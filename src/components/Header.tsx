@@ -10,20 +10,20 @@ function Header() {
     <Container className="wrapper">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="/">Advent of Code 2022</Navbar.Brand>
+          <Navbar.Brand href="/AdventOfCode2022">Advent of Code 2022</Navbar.Brand>
         </Container>
       </Navbar>
       <Container>
         <Row>
           <Col>
-            <Nav.Link href="/day1part1">Day 1 Part 1</Nav.Link>
-            <Nav.Link href="/day1part2">Day 1 Part 2</Nav.Link>
-            <Nav.Link href="/day2part1">Day 2 Part 1</Nav.Link>
-            <Nav.Link href="/day2part2">Day 2 Part 2</Nav.Link>
-            <Nav.Link href="/day3part1">Day 3 Part 1</Nav.Link>
-            <Nav.Link href="/day3part2">Day 3 Part 2</Nav.Link>
-            <Nav.Link href="/day4part1">Day 4 Part 1</Nav.Link>
-            <Nav.Link href="/day4part2">Day 4 Part 2</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day1part1">Day 1 Part 1</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day1part2">Day 1 Part 2</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day2part1">Day 2 Part 1</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day2part2">Day 2 Part 2</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day3part1">Day 3 Part 1</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day3part2">Day 3 Part 2</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day4part1">Day 4 Part 1</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day4part2">Day 4 Part 2</Nav.Link>
           </Col>
           <Col xs={9}>
             <Outlet />

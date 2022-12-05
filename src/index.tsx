@@ -58,7 +58,9 @@ const router = createBrowserRouter([
       }
     ]
   }
-]);
+],
+  { basename: "/AdventOfCode2022" }
+);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
