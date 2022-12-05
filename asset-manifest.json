@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AdventOfCode2022/static/css/main.9cb571c6.css",
+    "main.js": "/AdventOfCode2022/static/js/main.78d2900a.js",
+    "static/js/787.99b58234.chunk.js": "/AdventOfCode2022/static/js/787.99b58234.chunk.js",
+    "index.html": "/AdventOfCode2022/index.html",
+    "main.9cb571c6.css.map": "/AdventOfCode2022/static/css/main.9cb571c6.css.map",
+    "main.78d2900a.js.map": "/AdventOfCode2022/static/js/main.78d2900a.js.map",
+    "787.99b58234.chunk.js.map": "/AdventOfCode2022/static/js/787.99b58234.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9cb571c6.css",
+    "static/js/main.78d2900a.js"
+  ]
+}
