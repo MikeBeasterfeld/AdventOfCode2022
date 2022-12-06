@@ -14,6 +14,7 @@ import Day3Part1 from './components/Day3Part1';
 import Day3Part2 from './components/Day3Part2';
 import Day4Part1 from './components/Day4Part1';
 import Day4Part2 from './components/Day4Part2';
+import Day5Part1 from './components/Day5Part1';
 
 const router = createBrowserRouter([
   {
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
       {
         path: "day4part2",
         element: <Day4Part2 />
+      },
+      {
+        path: "day5part1",
+        element: <Day5Part1 />
       }
     ]
   }

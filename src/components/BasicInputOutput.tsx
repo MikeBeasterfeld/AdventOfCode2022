@@ -3,14 +3,14 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 
 type IOProps = {
-    func: (input: string) => number;
+    func: (input: string) => number | string;
     inputLabel: string;
     outputLabel: string;
 };
 
 function BasicInputOutput(props: IOProps) {
     const [input, setInput] = useState("");
-    const [output, setOutput] = useState<number | undefined>(undefined);
+    const [output, setOutput] = useState<number | string | undefined>(undefined);
 
     function updateInput(event: ChangeEvent<HTMLTextAreaElement>) {
         setInput(event.target.value);

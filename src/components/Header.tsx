@@ -24,6 +24,7 @@ function Header() {
             <Nav.Link href="/AdventOfCode2022/day3part2">Day 3 Part 2</Nav.Link>
             <Nav.Link href="/AdventOfCode2022/day4part1">Day 4 Part 1</Nav.Link>
             <Nav.Link href="/AdventOfCode2022/day4part2">Day 4 Part 2</Nav.Link>
+            <Nav.Link href="/AdventOfCode2022/day5part1">Day 5 Part 1</Nav.Link>
           </Col>
           <Col xs={9}>
             <Outlet />
