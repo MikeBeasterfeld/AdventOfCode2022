@@ -18,6 +18,8 @@ import Day5Part1 from './components/Day5Part1';
 import Day5Part2 from './components/Day5Part2';
 import Day6Part1 from './components/Day6Part1';
 import Day6Part2 from './components/Day6Part2';
+import Day7Part1 from './components/Day7Part1';
+import Day7Part2 from './components/Day7Part2';
 
 const router = createBrowserRouter([
   {
@@ -75,6 +77,14 @@ const router = createBrowserRouter([
       {
         path: "day6part2",
         element: <Day6Part2 />
+      },
+      {
+        path: "day7part1",
+        element: <Day7Part1 />
+      },
+      {
+        path: "day7part2",
+        element: <Day7Part2 />
       }
     ]
   }
